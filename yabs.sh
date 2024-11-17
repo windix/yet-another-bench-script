@@ -806,15 +806,29 @@ if [ -z "$SKIP_IPERF" ]; then
 	#   4. location and advertised speed link of the iperf server
 	#   5. network modes supported by the iperf server (IPv4 = IPv4-only, IPv4|IPv6 = IPv4 + IPv6, etc.)
 	IPERF_LOCS=( \
-		"lon.speedtest.clouvider.net" "5200-5209" "Clouvider" "London, UK (10G)" "IPv4|IPv6" \
-		"iperf-ams-nl.eranium.net" "5201-5210" "Eranium" "Amsterdam, NL (100G)" "IPv4|IPv6" \
-		#"speedtest.extra.telia.fi" "5201-5208" "Telia" "Helsinki, FI (10G)" "IPv4" \
-		# AFR placeholder
-		"speedtest.uztelecom.uz" "5200-5209" "Uztelecom" "Tashkent, UZ (10G)" "IPv4|IPv6" \
+		#"lon.speedtest.clouvider.net" "5200-5209" "Clouvider" "London, UK (10G)" "IPv4|IPv6" \
+		#"iperf-ams-nl.eranium.net" "5201-5210" "Eranium" "Amsterdam, NL (100G)" "IPv4|IPv6" \
+		##"speedtest.extra.telia.fi" "5201-5208" "Telia" "Helsinki, FI (10G)" "IPv4" \
+		## AFR placeholder
+		#"speedtest.uztelecom.uz" "5200-5209" "Uztelecom" "Tashkent, UZ (10G)" "IPv4|IPv6" \
+		#"speedtest.sin1.sg.leaseweb.net" "5201-5210" "Leaseweb" "Singapore, SG (10G)" "IPv4|IPv6" \
+		#"la.speedtest.clouvider.net" "5200-5209" "Clouvider" "Los Angeles, CA, US (10G)" "IPv4|IPv6" \
+		#"speedtest.nyc1.us.leaseweb.net" "5201-5210" "Leaseweb" "NYC, NY, US (10G)" "IPv4|IPv6" \
+		#"speedtest.sao1.edgoo.net" "9204-9240" "Edgoo" "Sao Paulo, BR (1G)" "IPv4|IPv6"
+
+		"hc2.windix.au" "5201" "HOST-C" "Oradea, Romania (2G)" "IPv4" \
+		"185.102.217.170" "5201" "Bucharest" "Bucharest, Romania (2x10G)" "IPv4" \
+		"or2.windix.au" "5201" "Oracle" "Melbourne, AU" "IPv4|IPv6" \
+		"syd.proof.ovh.net" "5201-5210" "OVH" "Sydney, AU (1G)" "IPv4|IPv6" \
+		"uc2.windix.au" "5201" "ucloud" "Guangdong, CN (8M)" "IPv4" \
+		"84.17.57.129" "5201" "?" "HK (2x10G)" "IPv4|IPv6" \
+		"lg-jp-tyo.webhorizon.net" "5201" "WebHorizon" "Tokyo, JP (10G)" "IPv4|IPv6" \
 		"speedtest.sin1.sg.leaseweb.net" "5201-5210" "Leaseweb" "Singapore, SG (10G)" "IPv4|IPv6" \
-		"la.speedtest.clouvider.net" "5200-5209" "Clouvider" "Los Angeles, CA, US (10G)" "IPv4|IPv6" \
+		"hs1.windix.au" "5201" "HostSlick" "Amsterdam, NL (10G)" "IPv4|IPv6" \
+		"speedtest.ams1.nl.leaseweb.net" "5201-5210" "Leaseweb" "Amsterdam, NL (10G)" "IPv4|IPv6" \
+		"speedtest.fra1.de.leaseweb.net" "5201-5210" "Leaseweb" "Frankfurt, DE (10G)" "IPv4|IPv6" \
 		"speedtest.nyc1.us.leaseweb.net" "5201-5210" "Leaseweb" "NYC, NY, US (10G)" "IPv4|IPv6" \
-		"speedtest.sao1.edgoo.net" "9204-9240" "Edgoo" "Sao Paulo, BR (1G)" "IPv4|IPv6"
+		"speedtest.lax1.us.leaseweb.net" "5201-5210" "Leaseweb" "Los Angeles, CA, US (10G)" "IPv4|IPv6"
 	)
 
 	# if the "REDUCE_NET" flag is activated, then do a shorter iperf test with only three locations
