@@ -824,7 +824,7 @@ if [ -z "$SKIP_IPERF" ]; then
 		"84.17.57.129" "5201-5201" "?" "HK (2x10G)" "IPv4|IPv6" \
 		"lg-jp-tyo.webhorizon.net" "5201-5201" "WebHorizon" "Tokyo, JP (10G)" "IPv4|IPv6" \
 		"speedtest.sin1.sg.leaseweb.net" "5201-5210" "Leaseweb" "Singapore, SG (10G)" "IPv4|IPv6" \
-		"hs1.windix.au" "5201" "HostSlick" "Amsterdam, NL (10G)" "IPv4|IPv6" \
+		"hs1.windix.au" "5201-5201" "HostSlick" "Amsterdam, NL (10G)" "IPv4|IPv6" \
 		"speedtest.ams1.nl.leaseweb.net" "5201-5210" "Leaseweb" "Amsterdam, NL (10G)" "IPv4|IPv6" \
 		"speedtest.fra1.de.leaseweb.net" "5201-5210" "Leaseweb" "Frankfurt, DE (10G)" "IPv4|IPv6" \
 		"speedtest.nyc1.us.leaseweb.net" "5201-5210" "Leaseweb" "NYC, NY, US (10G)" "IPv4|IPv6" \
