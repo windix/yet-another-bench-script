@@ -816,13 +816,13 @@ if [ -z "$SKIP_IPERF" ]; then
 		#"speedtest.nyc1.us.leaseweb.net" "5201-5210" "Leaseweb" "NYC, NY, US (10G)" "IPv4|IPv6" \
 		#"speedtest.sao1.edgoo.net" "9204-9240" "Edgoo" "Sao Paulo, BR (1G)" "IPv4|IPv6"
 
-		"hc2.windix.au" "5201" "HOST-C" "Oradea, Romania (2G)" "IPv4" \
-		"185.102.217.170" "5201" "Bucharest" "Bucharest, Romania (2x10G)" "IPv4" \
-		"or2.windix.au" "5201" "Oracle" "Melbourne, AU" "IPv4|IPv6" \
+		"hc2.windix.au" "5201-5201" "HOST-C" "Oradea, Romania (2G)" "IPv4" \
+		"185.102.217.170" "5201-5201" "Bucharest" "Bucharest, Romania (2x10G)" "IPv4" \
+		"or2.windix.au" "5201-5201" "Oracle" "Melbourne, AU" "IPv4|IPv6" \
 		"syd.proof.ovh.net" "5201-5210" "OVH" "Sydney, AU (1G)" "IPv4|IPv6" \
-		"uc2.windix.au" "5201" "ucloud" "Guangdong, CN (8M)" "IPv4" \
-		"84.17.57.129" "5201" "?" "HK (2x10G)" "IPv4|IPv6" \
-		"lg-jp-tyo.webhorizon.net" "5201" "WebHorizon" "Tokyo, JP (10G)" "IPv4|IPv6" \
+		"uc2.windix.au" "5201-5201" "ucloud" "Guangdong, CN (8M)" "IPv4" \
+		"84.17.57.129" "5201-5201" "?" "HK (2x10G)" "IPv4|IPv6" \
+		"lg-jp-tyo.webhorizon.net" "5201-5201" "WebHorizon" "Tokyo, JP (10G)" "IPv4|IPv6" \
 		"speedtest.sin1.sg.leaseweb.net" "5201-5210" "Leaseweb" "Singapore, SG (10G)" "IPv4|IPv6" \
 		"hs1.windix.au" "5201" "HostSlick" "Amsterdam, NL (10G)" "IPv4|IPv6" \
 		"speedtest.ams1.nl.leaseweb.net" "5201-5210" "Leaseweb" "Amsterdam, NL (10G)" "IPv4|IPv6" \
